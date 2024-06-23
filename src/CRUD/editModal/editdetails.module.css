@@ -1,0 +1,101 @@
+.EditbgFade{
+    background-color: rgba(75, 75, 75, 0.63);
+    width: 100%;
+    height: 700px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+}
+.editDetails{
+    position: fixed;
+    top: 200px;
+    left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 1px black;
+    height: 300px;
+    width: 400px;
+  }
+  
+  .editForm{
+    /* background-color: green; */
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .lab{
+    display: block;
+  }
+  .Editinput{
+    border: none;
+    
+    border-bottom: 2px solid rgb(184, 184, 184);
+    box-shadow: 0px 0px 3px rgba(177, 177, 177, 0.418);
+
+  }
+
+
+  .DataUpdateBtn{
+    cursor: pointer;
+    margin-top: 10px;
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius:25px;
+    font-weight: bolder;
+    color: white;
+    background-image: linear-gradient(45deg,rgb(66, 20, 66),rgb(194, 89, 106),rgb(104, 2, 104));
+  }
+  
+  .DataUpdateBtnsCont{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.cnfPopUpCont{
+    background-color: rgba(119, 119, 119, 0.644);
+    height:300px;
+    width: 400px;
+    top: 200px;
+    left: 478px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cnfPopUp{
+    height: 100px;
+    width: 350px;
+    box-shadow: 0px 0px 10px 1px rgba(3, 1, 1, 0.651);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    font-size: 25px;
+}
+.cnfBtnsCont{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    
+}
+.cnfBtns{
+    height: 25px;
+    width: 70px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    background-image: linear-gradient(45deg,rgb(66, 20, 66),rgb(194, 89, 106),rgb(104, 2, 104));
+}
